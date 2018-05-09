@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyPlusMinusViewActivity">
+
+    <kr.or.dgit.it.chapter13_14.MyCircleView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        custom:customColor="#0000ff"
+        android:background="#ff0000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="world"/>
+
+
+    <kr.or.dgit.it.chapter13_14.MyPlusMinusView
+        android:id="@+id/customView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:customTextColor="#0000ff"/>
+    <View
+        android:id="@+id/barView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>
