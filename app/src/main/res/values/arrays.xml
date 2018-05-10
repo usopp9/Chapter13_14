@@ -2,8 +2,14 @@
 <resources>
     <string-array name="activities">
         <item>MyPlusMinusViewActivity</item>
+        <item>Mission01</item>
+        <item>intentForResultActivity</item>
+        <item>IntentFilterActivity</item>
     </string-array>
     <string-array name="titles">
         <item>사용자뷰</item>
+        <item>미션1</item>
+        <item>인텐트를 이용한 컴포넌트 실행</item>
+        <item>암시적 인텐트 필터</item>
     </string-array>
 </resources>
