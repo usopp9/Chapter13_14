@@ -22,7 +22,13 @@
         <activity android:name=".Mission01" />
         <activity android:name=".intentForResultActivity" />
         <activity android:name=".DetailActivity" />
-        <activity android:name=".IntentFilterActivity"></activity>
+        <activity android:name=".IntentFilterActivity" />
+        <activity android:name=".LifeCycleActivity" />
+        <activity android:name=".SubActivity" />
+        <activity android:name=".LifeCycle2Activity" />
+        <activity android:name=".GoDetailActivity" />
+        <activity android:name=".GoDialogActivity"
+            android:theme="@android:style/Theme.Dialog"/>
     </application>
 
 </manifest>
