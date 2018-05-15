@@ -27,8 +27,15 @@
         <activity android:name=".SubActivity" />
         <activity android:name=".LifeCycle2Activity" />
         <activity android:name=".GoDetailActivity" />
-        <activity android:name=".GoDialogActivity"
-            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name=".GoDialogActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".LauncherActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name=".ThreadHandlerMessageActivity" />
+        <activity android:name=".AsyncTaskActivity"></activity>
     </application>
 
 </manifest>

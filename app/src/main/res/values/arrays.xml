@@ -7,6 +7,9 @@
         <item>IntentFilterActivity</item>
         <item>LifeCycleActivity</item>
         <item>LifeCycle2Activity</item>
+        <item>LauncherActivity</item>
+        <item>ThreadHandlerMessageActivity</item>
+        <item>AsyncTaskActivity</item>
     </string-array>
     <string-array name="titles">
         <item>사용자뷰</item>
@@ -15,5 +18,8 @@
         <item>암시적 인텐트 필터</item>
         <item>액티비티 라이프사이클</item>
         <item>액티비티 라이프사이클2</item>
+        <item>액티비티의 다양한 제어</item>
+        <item>스레드와 핸들러</item>
+        <item>AsyncTask</item>
     </string-array>
 </resources>
