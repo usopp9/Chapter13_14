@@ -35,7 +35,8 @@
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity android:name=".ThreadHandlerMessageActivity" />
-        <activity android:name=".AsyncTaskActivity"></activity>
+        <activity android:name=".AsyncTaskActivity" />
+        <activity android:name=".ThreadLooperActivity"></activity>
     </application>
 
 </manifest>

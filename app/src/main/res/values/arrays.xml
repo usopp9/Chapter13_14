@@ -10,6 +10,7 @@
         <item>LauncherActivity</item>
         <item>ThreadHandlerMessageActivity</item>
         <item>AsyncTaskActivity</item>
+        <item>ThreadLooperActivity</item>
     </string-array>
     <string-array name="titles">
         <item>사용자뷰</item>
@@ -21,5 +22,6 @@
         <item>액티비티의 다양한 제어</item>
         <item>스레드와 핸들러</item>
         <item>AsyncTask</item>
+        <item>Looper를 이용한 스레드간 연동</item>
     </string-array>
 </resources>

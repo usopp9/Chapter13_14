@@ -34,6 +34,7 @@ public class AsyncTaskActivity extends AppCompatActivity {
         protected void onPreExecute() {
             super.onPreExecute();
             Toast.makeText(AsyncTaskActivity.this,"onPreExecute()",Toast.LENGTH_SHORT).show();
+            tv.setText("onPreExecute()");
         }
 
         @Override
@@ -46,8 +47,6 @@ public class AsyncTaskActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
-
-
             return "Finish!!";
         }
 
@@ -60,7 +59,6 @@ public class AsyncTaskActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
-         //   Toast.makeText(AsyncTaskActivity.this,"onPostExecute() ->"+s,Toast.LENGTH_SHORT).show();
             tv.setText(s);
         }
     }
